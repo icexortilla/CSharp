@@ -1,4 +1,9 @@
-﻿using System;
+﻿/***
+ * Written by Ice Xortilla
+ * Date: 2017-02-20
+ * 
+***/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,6 +30,9 @@ namespace BinarySearch
         }
 
 
+        /***
+         * Search a sorted list to find the given key
+        ***/
         public static SearchResult search(int[] a,int searchkey)
         {
 
